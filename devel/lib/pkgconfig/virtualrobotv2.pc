@@ -1,0 +1,8 @@
+prefix=/home/vtl/topic1_ws/devel
+
+Name: virtualrobotv2
+Description: Description of virtualrobotv2
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
