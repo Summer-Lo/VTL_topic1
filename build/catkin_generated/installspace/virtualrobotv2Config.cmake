@@ -67,14 +67,14 @@ set(virtualrobotv2_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(virtualrobotv2_SOURCE_PREFIX /home/vtl/topic1_ws/src)
-  set(virtualrobotv2_DEVEL_PREFIX /home/vtl/topic1_ws/devel)
+  set(virtualrobotv2_SOURCE_PREFIX /home/vtl/Topic1_ws/src)
+  set(virtualrobotv2_DEVEL_PREFIX /home/vtl/Topic1_ws/devel)
   set(virtualrobotv2_INSTALL_PREFIX "")
   set(virtualrobotv2_PREFIX ${virtualrobotv2_DEVEL_PREFIX})
 else()
   set(virtualrobotv2_SOURCE_PREFIX "")
   set(virtualrobotv2_DEVEL_PREFIX "")
-  set(virtualrobotv2_INSTALL_PREFIX /home/vtl/topic1_ws/install)
+  set(virtualrobotv2_INSTALL_PREFIX /home/vtl/Topic1_ws/install)
   set(virtualrobotv2_PREFIX ${virtualrobotv2_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/vtl/topic1_ws/install/lib;/home/vtl/topic1_ws/devel/lib;/home/vtl/catkin_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/vtl/Topic1_ws/install/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
