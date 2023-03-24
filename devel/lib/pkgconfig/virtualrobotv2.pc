@@ -1,4 +1,4 @@
-prefix=/home/vtl/Topic1_ws/devel
+prefix=/home/topic1/Desktop/VTL_topic1/devel
 
 Name: virtualrobotv2
 Description: Description of virtualrobotv2

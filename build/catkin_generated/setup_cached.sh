@@ -7,8 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/vtl/Topic1_ws/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/vtl/Topic1_ws/devel/lib:$LD_LIBRARY_PATH"
-export PWD='/home/vtl/Topic1_ws/build'
-export ROSLISP_PACKAGE_DIRECTORIES='/home/vtl/Topic1_ws/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/vtl/Topic1_ws/src:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/topic1/Desktop/VTL_topic1/devel:$CMAKE_PREFIX_PATH"
+export PWD='/home/topic1/Desktop/VTL_topic1/build'
+export ROSLISP_PACKAGE_DIRECTORIES='/home/topic1/Desktop/VTL_topic1/devel/share/common-lisp'
+export ROS_PACKAGE_PATH="/home/topic1/Desktop/VTL_topic1/src:$ROS_PACKAGE_PATH"
